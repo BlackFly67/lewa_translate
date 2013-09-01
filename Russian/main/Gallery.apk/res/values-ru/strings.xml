@@ -268,7 +268,7 @@
     <string name="fail_to_load_image">Не удалось загрузить изображение</string>
     <string name="no_thumbnail">Нет уменьшенного изображения</string>
     <string name="resume_playing_restart">Начать с начала</string>
-    <string name="crop_save_text">ОК</string>
+    <string name="crop_save_text">Кадрировать</string>
     <string name="ok">ОК</string>
     <string name="multiface_crop_help">Нажмите на лицо, чтобы начать.</string>
     <string name="saving_image">Сохранение картинки...</string>
