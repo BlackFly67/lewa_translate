@@ -2253,7 +2253,12 @@
     <string name="title_sim_alias">Псевдоним</string>
     <string name="summary_network_settings">Настройка параметров для мобильных сетей, APNs</string>
     <string name="summary_call_settings">Настройки параметров голосовой почты, функции обработки вызовов для dual SIM</string>
-
+    <string name="sim_enabler_summary">SIM %1$s</string>
+    <string name="sim_enabled">включена</string>
+    <string name="sim_disabled">отключена</string>
+    <string name="sim_missing">отсутствует или ошибка</string>
+    <string name="sim_enabler_need_enable_sim">Действительно включить?</string>
+    <string name="sim_enabler_need_disable_sim">Действительно отключить?</string>
 
 
     <string name="trusted_credentials_system_tab">Система</string>

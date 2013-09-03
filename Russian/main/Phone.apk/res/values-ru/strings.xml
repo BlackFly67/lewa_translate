@@ -629,6 +629,11 @@
     <string name="tty_mode_option_summary">Установить режим телетайпа</string>
     <string name="auto_retry_mode_title">Автодозвон</string>
     <string name="auto_retry_mode_summary">Включить режим автодозвона</string>
+    <string name="proximity_mode_title">Датчик приближения</string>
+    <string name="proximity_on_summary">Когда вы отвечаете на вызов, экран будет отключен для экономии электроэнергии.</string>
+    <string name="proximity_off_summary">Когда вы отвечаете на вызов, экран будет постоянно включен.</string>
+    
+
     <string name="menu_add">Добавить контакт</string>
     <string name="menu_edit">Изменить контакт</string>
     <string name="menu_delete">Удалить контакт</string>
@@ -771,6 +776,7 @@
     <string name="importToFDNfromContacts">Импортировать из контактов</string>
     <string name="hac_mode_title">Слуховые аппараты</string>
     <string name="hac_mode_summary">Включить слуховой аппарат</string>
+    <string name="dualmic_title">Двойной микрофон</string>
     <string name="dtmf_tones_title">Тональные сигналы DTMF</string>
     <string name="dtmf_tones_summary">Настроить длительность тональных сигналов DTMF</string>
     <string name="network_message">Сообщение сети</string>
@@ -973,9 +979,8 @@
     <string name="noNeedToUpdate">Обновление не требуется</string>
     <string name="updateProgress">Обновление информационной библиотеки перехватчика, пожалуйста ожидайте</string>
     <string name="networkError">Ошибка сети，проверьте настройки сети</string>
-    <string name="piano_tone">Звук клавиатуры</string>
     <string name="piano_tone_sum">Звуки пианино при наборе номера</string>
-    <string name="dialpad_tone_dlg_title">Тон клавиатуры</string>
-    <string name="dialpad_tone_title">Тон клавиатуры</string>
-    <string name="dialpad_tone_default_summary">Тон клавиатуры по умолчанию</string>
+    <string name="dialpad_tone_dlg_title">Звук клавиатуры</string>
+    <string name="dialpad_tone_title">Звук клавиатуры</string>
+    <string name="dialpad_tone_default_summary">Звук клавиатуры по умолчанию</string>
 </resources>
