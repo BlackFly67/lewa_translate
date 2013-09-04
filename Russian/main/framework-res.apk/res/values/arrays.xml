@@ -569,19 +569,17 @@
          Zone N + 1     array[N] <= LUX < infinity
 
          Must be overridden in platform specific overlays -->
-    <integer-array name="config_autoBrightnessLevels">
-         <item>0</item>
-         <item>10</item>
-         <item>50</item>
-         <item>110</item>
-         <item>280</item>
-         <item>520</item>
-         <item>1200</item>
-         <item>3000</item>
-         <item>5000</item>
-         <item>8000</item>
-         <item>11500</item>
-         <item>15500</item>
+
+<integer-array name="config_autoBrightnessLevels">
+        <item>11</item>
+        <item>41</item>
+        <item>91</item>
+        <item>161</item>
+        <item>226</item>
+        <item>321</item>
+        <item>641</item>
+        <item>1281</item>
+        <item>2601</item>
     </integer-array>
 
     <!-- Array of output values for LCD backlight corresponding to the LUX values
@@ -589,18 +587,16 @@
          than the size of the config_autoBrightnessLevels array.
          This must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLcdBacklightValues">
-         <item>5</item>
-         <item>10</item>
-         <item>15</item>
-         <item>35</item>
-         <item>64</item>
-         <item>99</item>
-         <item>150</item>
-         <item>180</item>
-         <item>225</item>
-         <item>255</item>
-         <item>255</item>
-         <item>255</item>
+        <item>10</item>
+        <item>20</item>
+        <item>40</item>
+        <item>80</item>
+        <item>105</item>
+        <item>130</item>
+        <item>160</item>
+        <item>185</item>
+        <item>210</item>
+        <item>255</item>
     </integer-array>
 
     <!-- Array of output values for button backlight corresponding to the LUX values
@@ -608,22 +604,29 @@
          than the size of the config_autoBrightnessLevels array.
          This must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessButtonBacklightValues">
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
         <item>0</item>
         <item>0</item>
         <item>0</item>
         <item>0</item>
         <item>0</item>
     </integer-array>
+
+    <!-- Array of output values for keyboard backlight corresponding to the LUX values
+         in the config_autoBrightnessLevels array.  This array should have size one greater
+         than the size of the config_autoBrightnessLevels array.
+         This must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessKeyboardBacklightValues">
         <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>0</item>
         <item>0</item>
         <item>0</item>
         <item>0</item>
