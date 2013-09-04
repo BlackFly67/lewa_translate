@@ -983,4 +983,7 @@
     <string name="dialpad_tone_dlg_title">Звук клавиатуры</string>
     <string name="dialpad_tone_title">Звук клавиатуры</string>
     <string name="dialpad_tone_default_summary">Звук клавиатуры по умолчанию</string>
+    <string name="select_ringtone_title">Выбор мелодии</string>
+    <string name="system_ringtone_item">Системные мелодии</string>
+    <string name="external_ringtone_item">Мелодии на SD-карте</string>
 </resources>
