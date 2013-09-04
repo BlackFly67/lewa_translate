@@ -1,0 +1,9 @@
+исправление желтым светом при зарядке, низкий заряд батареи красный, полный зеленый свет: 
+ \ RES \values\integers.xml
+    <Integer name="config_notificationsBatteryLowARGB"> 0xffffff00 </ целое> 
+    <Integer name="config_notificationsDischargingLowARGB"> 0xffff0000 </ целое> 
+    <Integer name="config_notificationsBatteryMediumARGB"> 0xffffff00 </ целое> 
+    <целое имя = "config_notificationsBatteryFullARGB"> 0xff00ff00 </ целое> 
+ SMS и пропущенные вызовы синего: 
+ \ RES \ values\ colors.xml
+<Color Name = "config_defaultNotificationColor"> # ff0000ff </color> 
