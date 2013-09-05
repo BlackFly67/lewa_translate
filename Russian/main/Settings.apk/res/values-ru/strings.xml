@@ -493,11 +493,11 @@
     <string name="sms_over_ims_off">Выключить SMS через IMS</string>
     <string name="ims_reg_required_on">Включить требование IMS-регистрации</string>
     <string name="ims_reg_required_off">Выключить требование IMS-регистрации</string>
-    <string name="lte_ram_dump_on">Включить дамп ОЗУ оконечного оборудования линии передачи данных</string>
-    <string name="lte_ram_dump_off">Выключить дамп ОЗУ оконечного оборудования линии передачи данных</string>
-    <string name="radioInfo_menu_viewADN">Просмотр адресной книги SIM-карты</string>
-    <string name="radioInfo_menu_viewFDN">Просмотр номеров фиксированного набора</string>
-    <string name="radioInfo_menu_viewSDN">Просмотр номеров для набора сервисных служб</string>
+    <string name="lte_ram_dump_on">Включить дамп ОЗУ линии передачи данных</string>
+    <string name="lte_ram_dump_off">Выключить дамп ОЗУ линии передачи данных</string>
+    <string name="radioInfo_menu_viewADN">Адресная книга SIM-карты</string>
+    <string name="radioInfo_menu_viewFDN">Номера фиксированного набора</string>
+    <string name="radioInfo_menu_viewSDN">Номера для набора сервисных служб</string>
     <string name="radioInfo_menu_getPDP">Получить список PDP</string>
     <string name="radioInfo_service_in">Работает</string>
     <string name="radioInfo_service_out">Не работает</string>
@@ -1171,6 +1171,7 @@
     <string name="search_settings_summary">Управление параметрами поиска и историей</string>
     <string name="display_settings">Параметры экрана</string>
     <string name="accelerometer_title">Автоповорот экрана</string>
+    <string name="nightmode_title">Ночной режим</string>
     <string name="accelerometer_summary_on">Автоматически менять ориентацию экрана при повороте телефона</string>
     <string name="accelerometer_summary_off">Автоматически менять ориентацию экрана при повороте телефона</string>
     <string name="brightness">Яркость</string>
@@ -1393,7 +1394,7 @@
     <string name="bluetooth_tethering_off_subtext">Выключен</string>
     <string name="bluetooth_tethering_errored_subtext">Нет общего доступа в интернет</string>
     <string name="bluetooth_tethering_overflow_error">Макс. число подключаемых устройств: %1$d</string>
-    <string name="bluetooth_untether_blank">%1$s будет отсоединено от общего интернета.</string>
+    <string name="bluetooth_untether_blank">Подключение к %1$s будет прервано</string>
     <string name="tethering_help_button_text">Справка</string>
     <string name="network_settings_title">Сети мобильной связи</string>
     <string name="location_title">Мое местоположение</string>
@@ -2220,7 +2221,7 @@
     <string name="vpn_not_used">(не используется)</string>
     <string name="vpn_no_ca_cert">(не проверять сервер)</string>
     <string name="vpn_no_server_cert">(восстановлено с сервера)</string>
-    <string name="vpn_cancel">Отклонить</string>
+    <string name="vpn_cancel">Отмена</string>
     <string name="vpn_save">Сохранить</string>
     <string name="vpn_connect">Подключить</string>
     <string name="vpn_edit">Изменить сеть VPN</string>

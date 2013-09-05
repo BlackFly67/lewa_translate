@@ -52,6 +52,11 @@
     <string name="zhouwu">пятница</string>
     <string name="zhouliu">суббота</string>
     <string name="zhouri">воскресенье</string>
+    <string name="weather_hot_city">Рекоменд.города</string>
+    <string name="weather_search_city">Результаты</string>
+    <string name="weather_weather_waiting">Обновление данных, пожалуйста, подождите...</string>
+    <string name="weather_weather_get_failed">Получить прогноз погоды не удалось. Пожалуйста, проверьте подключение к сети</string>
+    <string name="weather_close">Закрыть</string>
     <string name="mversion">2012.8</string>
     <string name="channel">lewa</string>
     <string name="shared_user_label">www.365rili.com</string>
@@ -60,10 +65,7 @@
     <string name="weather_find_city_hint">Введите название города</string>
     <string name="weather_manage_city">Управление городом</string>
     <string name="weather_manage_hint">Перетащите город для сортировки, первый в списке - город по умолчанию</string>
-    <string name="weather_close">Закрыть</string>
     <string name="weather_alert_dialog_ok">ОК</string>
-    <string name="weather_weather_waiting">Обновление данных о погоде, пожалуйста, подождите...</string>
-    <string name="weather_weather_get_failed">Получить прогноз погоды не удалось. Пожалуйста, проверьте подключение к сети</string>
     <string name="weather_cityset_error">Установить по умолчанию не удалось</string>
     <string name="weather_cityadd_ok">Город добавлен успешно</string>
     <string name="weather_cityadd_error">Добавление города не удалось</string>
@@ -81,8 +83,6 @@
     <string name="weather_citydelete_ok">Удалено успешно</string>
     <string name="weather_citydelete_error">Удаление не удалось</string>
     <string name="weather_city_auto_update_ok">Успешно установлено</string>
-    <string name="weather_hot_city">Частые города</string>
-    <string name="weather_search_city">Результаты поиска</string>
     <string name="weather_du">°</string>
     <string name="weather_unknown">Неизв.</string>
     <string name="weather_last_update_time">Последнее обновление</string>

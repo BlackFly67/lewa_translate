@@ -7,3 +7,5 @@
  SMS и пропущенные вызовы синего: 
  \ RES \ values\ colors.xml
 <Color Name = "config_defaultNotificationColor"> # ff0000ff </color> 
+
+ea00ff

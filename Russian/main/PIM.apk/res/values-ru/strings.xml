@@ -257,7 +257,6 @@
     <string name="importing_vcard_description">Импорт: %s</string>
     <string name="reading_vcard_failed_title">Ошибка чтения vCard-файла</string>
     <string name="reading_vcard_canceled_title">Чтение данных vCard отменено</string>
-    <string name="importing_vcard_finished_title">Импорт файла vCard %s завершен</string>
     <string name="importing_vcard_canceled_title">Импорт файла \"%s\" отменен</string>
     <string name="vcard_import_will_start_message">Импорт %s начнется в ближайшее время.</string>
     <string name="vcard_import_will_start_message_with_default_name">Файл будет импортирован в ближайшее время.</string>
@@ -1315,16 +1314,18 @@
     <string name="multichoice_delete_group_info_confirm_title">Удаление групп контактов</string>
     <string name="add_contact_detail">+ Добавить детали контакта</string>
     <string name="exporting_vcard_finished_description">Сохранить в %s。</string>
-    <string name="importing_vcard_finished_description">От%s</string>
     <string name="activity_title_accout_select">Выбор аккаунта</string>
     <string name="label_list_in_simple_mode">Простой режим</string>
     <string name="label_show_smart_avatar">Показывать умный аватар</string>
     <string name="description_list_not_show_more_info">Не показывать принадлежность аватара</string>
     <string name="description_show_smart_avatar">Автоматически добавлять умный аватар, если не задан обычный</string>
+    <string name="importing_vcard_finished_title">Импорт vCard закончен</string>
+    <string name="importing_vcard_finished_description">Сохранено в %s。</string>
     <string name="dialpad_call">Вызов</string>
     <string name="twelve_hour_time_format">h:mma</string>
     <string name="send_message">Отправить сообщение</string>
     <string name="dialpad_showdialpad">Показать номеронабиратель</string>
+    <string name="call_dialpad_setting">Настройки номеронабирателя</string>
     <string name="mms_select_contacts_group_count">контакты</string>
     <string name="mms_select_contacts_recent_contacts">последние контакты</string>
     <string name="message_compose_menu_resend_label">Переслать</string>

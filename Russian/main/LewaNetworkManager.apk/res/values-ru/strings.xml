@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Межсетевой экран</string>
+    <string name="app_name">Трафик</string>
     <string name="app_summary">Data Meter© LeWaTek Limited.</string>
     <string name="settings_safetylegal_activity_loading">Загрузка...</string>
     <string name="no_applications">Нет приложений.</string>
@@ -12,7 +12,7 @@
     <string name="wifi">Wi-Fi</string>
     <string name="mobile_usage">Использование 2G/3G</string>
     <string name="wifi_usage">Использование Wi-Fi</string>
-    <string name="metered">Bg</string>
+    <string name="metered">в фоне</string>
     <string name="card">Карта</string>
     <string name="zero">0B</string>
     <string name="monthday">" "</string>
@@ -24,7 +24,8 @@
     <string name="usage_today_usage">Сегодня</string>
     <string name="usage_daily_remain">Ежедневно</string>
     <string name="usage_day_remain">Осталось</string>
-    <string name="usage_cycle_day">День начала периода</string>
+    <string name="usage_cycle_day">Начало периода</string>
+    <string name="usage_cycle">Период использования</string>
     <string name="usage_exceed">Превышает</string>
     <string name="usage_remain">Осталось</string>
     <string name="usage_nocard">неизвестно</string>

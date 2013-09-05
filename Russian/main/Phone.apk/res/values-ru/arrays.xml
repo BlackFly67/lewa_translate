@@ -5,7 +5,7 @@
         <item>TCP</item>
     </string-array>
     <string-array name="outgoing_call_entries">
-        <item>Выклю</item>
+        <item>Выкл.</item>
         <item>Международные звонки</item>
         <item>Все кроме главной</item>
         <item>Всем</item>
@@ -85,22 +85,22 @@
         <item>2</item>
     </string-array>
     <string-array name="language_list_values">
-        <item>All Languages</item>
+        <item>Все языки</item>
         <item>Немецкий</item>
         <item>Английский</item>
         <item>Итальянский</item>
         <item>Французский</item>
         <item>Испанский</item>
         <item>Голландский</item>
-        <item>Шведской</item>
+        <item>Шведский</item>
         <item>Датский</item>
         <item>Португальский</item>
         <item>Финский</item>
         <item>Норвежский</item>
         <item>Греческий</item>
-        <item>Турецкой</item>
-        <item>Венгерской</item>
-        <item>Польской</item>
+        <item>Турецкий</item>
+        <item>Венгерский</item>
+        <item>Польский</item>
         <item>Другой</item>
         <item>Чешский</item>
         <item>Иврит</item>
@@ -244,7 +244,7 @@
         <item>GSM/WCDMA авто</item>
         <item>WCDMA только</item>
         <item>GSM только</item>
-        <item>GSM / WCDMA приоритет</item>
+        <item>GSM/WCDMA приоритет</item>
     </string-array>
     <string-array name="preferred_network_mode_values">
         <item>7</item>

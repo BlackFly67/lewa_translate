@@ -65,7 +65,7 @@
     <string name="search_bar_hint_song">Поиск песни</string>
     <string name="playlist_songs">песен(ни)</string>
     <string name="playlist_deleted_message">Удалить плейлист</string>
-    <string name="photoPickerNotFoundText">Нет фотографий, доступных на телефоне.</string>
+    <string name="photoPickerNotFoundText">Нет фотографий, доступных на телефоне</string>
     <string name="description_playlist_cover">Обложка списка воспроизведения</string>
     <string name="attachToPlaylist">Обложка списка воспроизведения</string>
     <string name="use_photo_as_primary">Используйте это фото</string>
@@ -83,7 +83,7 @@
     <string name="select_folder">Выбор источник музыки</string>
     <string name="no_network">Сеть недоступна</string>
     <string name="download_lrc_off_hint">Загрузка текстов песен выключена</string>
-    <string name="no_folder">Выберите, пожалуйста, по крайней мере 1 папку</string>
+    <string name="no_folder">Выберите, пожалуйста, по крайней мере одну папку</string>
     <string name="synchron_title">Синхронизация музыки</string>
     <string name="synchron_message">Синхронизация музыки...</string>
     <string name="edit_playlist">Редактировать</string>
@@ -96,7 +96,7 @@
     <string name="menu_doNotSave">Отмена</string>
     <string name="delete_song_desc">\"%s\" будут навсегда удалены с SD-карты</string>
     <string name="delete_song_desc_nosdcard">%s будут навсегда удалены из USB-хранилища</string>
-    <string name="ringtone_set">\"%s\" установить в качестве рингтона.</string>
+    <string name="ringtone_set">\"%s\" установить в качестве рингтона</string>
     <string name="delete_album_desc">Альбомы \"%s\" будут навсегда удалены с SD-карты</string>
     <string name="delete_album_desc_nosdcard">Альбомы \"%s\" будут навсегда удалены из USB-хранилища</string>
     <string name="delete_artist_desc">Песни \"%s\" будут навсегда удалены с SD-карты</string>
@@ -132,11 +132,11 @@
     <string name="scanning_nosdcard">Нет SD-карты</string>
     <string name="scanning">Сканирование</string>
     <string name="lrc_down_notfound">Тексты песен не найдены</string>
-    <string name="repeat_mode_all">повторить все</string>
-    <string name="repeat_mode_one">повторение текущей песни</string>
-    <string name="repeat_mode_off">повтор выключен</string>
-    <string name="shuffle_mode_on">случайное воспроизведение включено</string>
-    <string name="shuffle_mode_off">случайное воспроизведение выключено</string>
+    <string name="repeat_mode_all">Повторить все</string>
+    <string name="repeat_mode_one">Повторение текущей песни</string>
+    <string name="repeat_mode_off">Повтор выключен</string>
+    <string name="shuffle_mode_on">Случайное воспроизведение включено</string>
+    <string name="shuffle_mode_off">Случайное воспроизведение выключено</string>
     <string name="about_title">О приложении</string>
     <string name="eq_setting_ok">OK</string>
     <string name="eq_setting_cansl">Отмена</string>
@@ -200,14 +200,14 @@
     <string name="music_exit">Выход</string>
     <string name="download_menu">Получить изображения</string>
     <string name="downloading">Загрузка     </string>
-    <string name="download_tip">"Wi-Fi не подключен.Если Вы продолжите, то это может привести к затратам на мобильный трафик 3G.
+    <string name="download_tip">"Wi-Fi не подключен. Продолжение может привести к затратам на мобильнуй передачу данных.
 
 Продолжить?"</string>
     <string name="set_network">Настройка сети</string>
     <string name="no_network_tip">Нет подключения к интернету, невозможно загрузить изображения</string>
     <string name="getpicfinish" />
     <string name="getpicbreak">остановлен,</string>
-    <string name="download_finish" formatted="false">%sdownload %s total images. %s Artist images, %s Album images.</string>
+    <string name="download_finish" formatted="false">%s загружено %s всего изображения(й). %s фото артистов, %s обложки(ек) альбомов</string>
     <string name="download_break_hint">Остановить загрузку изображений?</string>
     <string name="phone_no_songs">Ваш телефон не имеет песен</string>
     <string name="nowplaying_filter">В настоящее время песни не выбраны в Вашем источнике музыки</string>
@@ -239,7 +239,7 @@
     <string name="search_music">Поиск песни</string>
     <string name="onlinedownload">Скачать</string>
     <string name="more_content">Еще больше контента хочет увидеть Вас(*^◎^*)</string>
-    <string name="online_pause">пауза</string>
+    <string name="online_pause">Пауза</string>
     <string name="online_newsongs_delivery">Новые песни</string>
     <string name="ranklist">Рейтинг</string>
     <string name="hotsinger">Популярные исполнители</string>
@@ -257,12 +257,12 @@
     <string name="nonetworking">Пожалуйста, проверьте сеть( T___T )</string>
     <string name="not_in_wifi">"В настоящее время Wi-Fi не включен.
  Уверены, что хотите продолжить?"</string>
-    <string name="enter_online_music">запись онлайн-музыки</string>
+    <string name="enter_online_music">Запись онлайн-музыки</string>
     <string name="new_songs_rank">Новые песни рейтинга Baidu</string>
     <string name="hot_songs_rank">Горячие песни рейтинга Baidu</string>
     <string name="just_100_artists">Только сто(∩_∩)</string>
     <string name="url_notfound">У песни некорректный ID</string>
-    <string name="network_not_connect">не подключен к сети</string>
+    <string name="network_not_connect">Не подключен к сети</string>
     <string name="set_firewall">Установить сетевой доступ</string>
     <string name="network_limited">Ограничение сети</string>
     <string name="networking_limited">Ограничение сети( T___T )</string>
@@ -273,6 +273,6 @@
     <string name="filter_songs_hint">Фильтрация аудиофайлов с небольшой продолжительностью (менее 1 минуты)</string>
     <string name="setting_flowhint_summary">При скачивании данных выводить всплывающие окна</string>
     <string name="songs_download">Скачать песни</string>
-    <string name="Hearing_loss">Если Вы хотите уменьшить риск потери слуха, не слушайте музыку на высокой громкости в течение длительного времени</string>
+    <string name="Hearing_loss">Если Вы хотите снизить риск потери слуха, не слушайте музыку на высокой громкости в течение длительного времени</string>
     <string name="more_menu">Еще</string>
 </resources>
