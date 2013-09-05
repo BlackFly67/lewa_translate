@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Трафик</string>
+    <string name="app_name">Межсетевой экран</string>
     <string name="app_summary">Data Meter© LeWaTek Limited.</string>
     <string name="settings_safetylegal_activity_loading">Загрузка...</string>
     <string name="no_applications">Нет приложений.</string>
