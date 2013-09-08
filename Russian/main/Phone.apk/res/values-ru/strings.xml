@@ -758,7 +758,7 @@
     <string name="import_contact_count">%d контактов успешно импортировано</string>
     <string name="onscreenBluetoothText">"Bluetooth
 "</string>
-    <string name="onscreenMuteText">"Откл. микрофон
+    <string name="onscreenMuteText">"Откл.микр.
 "</string>
     <string name="onscreenAddCallText">"+ вызов
 "</string>
@@ -768,7 +768,7 @@
 "</string>
     <string name="onscreenManageCallsText">Управление вызовами</string>
     <string name="onscreenManageConferenceText">Управление конференцией</string>
-    <string name="onscreenAudioText">"Громкая связь
+    <string name="onscreenAudioText">"Гром.связь
 "</string>
     <string name="importSimEntry">Импортировать</string>
     <string name="importAllSimEntries">Импортировать все</string>
