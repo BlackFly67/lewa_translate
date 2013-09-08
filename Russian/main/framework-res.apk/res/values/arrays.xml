@@ -522,7 +522,7 @@
         <item>40</item>
     </integer-array>
     <integer-array name="config_keyboardTapVibePattern">
-        <item>40</item>
+        <item>80</item>
     </integer-array>
     <integer-array name="config_safeModeDisabledVibePattern">
         <item>0</item>
