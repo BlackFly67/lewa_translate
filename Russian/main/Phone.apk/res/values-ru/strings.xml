@@ -697,6 +697,8 @@
     <string name="voicemail_settings_number_label">Номер голосовой почты</string>
     <string name="card_title_dialing">Набор номера</string>
     <string name="card_title_redialing">Повторная попытка</string>
+    <string name="card_title_unconditionalCF">Безусловная переадресация включена</string>
+    <string name="card_title_conditionalCF">Условная переадресация включена</string>
     <string name="card_title_conf_call">Конференц-вызов</string>
     <string name="card_title_incoming_call">Входящий вызов</string>
     <string name="card_title_call_ended">Вызов завершен</string>
