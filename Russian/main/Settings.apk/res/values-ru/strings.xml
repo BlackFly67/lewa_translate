@@ -369,7 +369,7 @@
     <string name="wifi_ap_connected_title">Подключенные пользователи</string>
     <string name="wifi_ap_blocked_title">Заблокированные пользователи</string>
     <string name="wifi_ap_client_block_title">Заблокировать</string>
-    <string name="wifi_ap_client_unblock_title">Деблокировать</string>
+    <string name="wifi_ap_client_unblock_title">Разблокировать</string>
     <string name="wifi_ap_client_details_title">Описание</string>
     <string name="wifi_ap_client_mac_label">MAC-адрес:</string>
     <string name="wifi_ap_client_ip_label">IP-адрес:</string>
@@ -452,7 +452,7 @@
     <string name="alarm_command_summary_format">Можно сказать %1$s или %2$s для управления сигналом.</string>
     <string name="camera_command_summary_format">Вы можете сказать %1$s или %2$s, чтобы произвести запись.</string>
     <string name="music_command_summary_format">Вы можете сказать %1$s и %2$s для управления воспроизведением музыки.</string>
-    <string name="lock_screen_notifications_title">Уведомления блокировки экрана</string>
+    <string name="lock_screen_notifications_title">Уведомления при блокировке</string>
     <string name="lock_screen_notifications_summary">Отображать уведомления при заблокированном экране</string>
     <string name="lock_screen_style_title">Стиль блокировки экрана</string>
     <string name="current_suffix">(Текущ.)</string>
@@ -1172,6 +1172,10 @@
     <string name="display_settings">Параметры экрана</string>
     <string name="accelerometer_title">Автоповорот экрана</string>
     <string name="nightmode_title">Ночной режим</string>
+    <string name="nightmodecolor_title">Цвета ночного режима</string>
+    <string name="summary_nightmode_value">%1$s</string>
+    <string name="inadvertmode_title">Ненужные нажатия</string>
+    <string name="inadvertmode_msg">Предупреждать ненужные нажатия, когда телетфон в кармане</string>
     <string name="accelerometer_summary_on">Автоматически менять ориентацию экрана при повороте телефона</string>
     <string name="accelerometer_summary_off">Автоматически менять ориентацию экрана при повороте телефона</string>
     <string name="brightness">Яркость</string>
@@ -1580,8 +1584,8 @@
     <string name="move_app_failed_dlg_text">Не удалось переместить приложение. %1$s</string>
     <string name="app_install_location_title">Предпочитаемое место установки</string>
     <string name="app_install_location_summary">Изменение предпочитаемого места установки для новых приложений</string>
-    <string name="app_disable_dlg_title">Откл. встроенное приложение?</string>
-    <string name="app_disable_dlg_text">Если отключить встроенное приложение, другие приложения могут начать работать неправильно.</string>
+    <string name="app_disable_dlg_title">Отключить приложение?</string>
+    <string name="app_disable_dlg_text">Отключение встроенной службы может нарушить работу других приложений</string>
     <string name="app_special_disable_dlg_title">Отключить?</string>
     <string name="app_special_disable_dlg_text">Если отключить встроенное приложение, другие приложения могут работать неправильно. Кроме того, будут удалены все данные.</string>
     <string name="app_disable_notifications_dlg_title">Отключить уведомления?</string>
