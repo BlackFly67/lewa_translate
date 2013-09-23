@@ -8,4 +8,35 @@
  \ RES \ values\ colors.xml
 <Color Name = "config_defaultNotificationColor"> # ff0000ff </color> 
 
-ea00ff
+
+LEWAANTiThEF
+Разбираем apk. Я делаю это jbartом, apktool разбирает, но при сборке ошибки, даже если ничего не менять. Далее идем smali/com/lewa/antitheft/InputValidater.smali, открываем его (например, notepad++), ищем код:
+
+    .line 92
+    const-string v3, "13"
+
+    invoke-interface {v1, v3}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
+
+    .line 93
+    const-string v3, "14"
+
+    invoke-interface {v1, v3}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
+
+    .line 94
+    const-string v3, "15"
+
+    invoke-interface {v1, v3}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
+
+    .line 95
+    const-string v3, "18"
+
+Это начальные цифры номера телефона, меняем их на какие надо (79 для России, 37 для Украины, 38 - Белоруссия), может быть можно и по одной цифре писать - не проверял.
+Для России закончено - не забываем в res подкинуть папку values-ru, и можно собирать.
+Для остальных стран используются 12-значные телефоны, поэтому идем чуть-чуть ниже, ищем код
+Код: Выделить всё
+    
+    move-result v3
+
+    const/16 v4, 0xb
+
+0xb - это 11 в шестнадцатиричной системе, меняем это на 0xc для 12ти знаков, и собираем apk.
