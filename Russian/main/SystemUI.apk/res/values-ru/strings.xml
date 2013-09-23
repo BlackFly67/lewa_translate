@@ -180,7 +180,7 @@
     <string name="title_toggle_gps">GPS</string>
     <string name="title_toggle_sound">Бесшумно</string>
     <string name="title_toggle_vibrator">Вибрация</string>
-    <string name="title_toggle_brightness">АвтоЯрк.</string>
+    <string name="title_toggle_brightness">АвтоЯркость</string>
     <string name="title_toggle_sync">Синхр.</string>
     <string name="title_toggle_wifiap">Точка доступа Wi-Fi</string>
     <string name="title_toggle_mobiledata">Интернет</string>
@@ -197,6 +197,7 @@
     <string name="title_toggle_switchwidgetstyle">Еще</string>
     <string name="title_toggle_screencapture">Скриншот</string>
     <string name="title_qr_code">QR-сканер</string>
+    <string name="title_nightmode">Ночн. режим</string>
     <string name="switchwidgetsettings_title">Позиции в строке уведомлений</string>
     <string name="switchwidgetsettings_switch_title">Настройки строки уведомлений</string>
     <string name="switchwidgetsettings_switch_on">открыть</string>

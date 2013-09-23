@@ -17,6 +17,7 @@
         <item>rebootDevice</item>
         <item>toggleVibrator</item>
         <item>toggleAutoRotate</item>
+        <item>nightmode</item>
     </string-array>
     <string-array name="notifilterblacklist">
         <item>cn.goapk.market</item>
