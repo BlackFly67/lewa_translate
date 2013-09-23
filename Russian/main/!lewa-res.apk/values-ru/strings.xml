@@ -39,7 +39,7 @@
     <string name="ringtone_custom">Обычная...</string>
     <string name="ringtone_silent_summary">Тихий</string>
     <string name="data_usage_warning_body">Осторожно, только %s осталось от пакета данных оператора.</string>
-    <string name="inadvertmode_title">Предотвратить ложные нажатия</string> 
-<string name="inadvertmode_tip_msg1">"Не закрывайте верх экрана"</string> 
-<string name="inadvertmode_force_quit">"Для выхода нажмите Домой + Громкость вверх</string>
+    <string name="inadvertmode_title">Защита от случайных касаний</string>
+    <string name="inadvertmode_tip_msg1">"Не закрывайте верх экрана"</string>
+    <string name="inadvertmode_force_quit">"Для выхода нажмите 'Домой'+'Громкость +'"</string>
 </resources>
