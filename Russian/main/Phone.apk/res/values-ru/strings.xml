@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="which_call_to_activate">Какой вызов активировать?</string>
     <string name="onscreenHangupAll">Повесить все телефонные трубки</string>
     <string name="onscreenHangupHolding">Удержание режима повешенной трубки</string>
     <string name="onscreenHangupActiveAndAnswerWaiting">Режим повешенной трубки активен, ожидание ответа</string>
@@ -16,6 +17,9 @@
     <string name="confirm_save_info_saved">Запись сохранена</string>
     <string name="sim_toolkit">Инструменты SIM-карты</string>
     <string name="activity_not_found">Приложение не установлено на вашем телефоне.</string>
+    <string name="no_sim_card_inserted">Пожалуйста, вставьте SIM для запуска Инструментов SIM-карты.</string>
+    <string name="airplane_mode_on">Невозможно запустить Инструменты SIM-карты, пока включен режим полета.</string>
+    <string name="lable_sim_not_ready">Приложение Инструменты SIM-карты не готово или не поддерживается</string>
     <string name="gemini_3g_indic">3G</string>
     <string name="callFailed_dsac_vt_incompatible_destination">Видеовызов не может быть настроен. Режим видеотелефона не поддерживается используемым Вами телефоном, выполнить голосовой вызов?</string>
     <string name="callFailed_dsac_vt_resource_unavailable">Видеовызов не может быть настроен. Набранный Вами телефонный номер вне зоны обслуживания 3G, выполнить голосовой вызов?</string>
@@ -153,10 +157,25 @@
     <string name="vt_media_video_fail">Плохое качество видеосвязи. Видеозвонок прерван</string>
     <string name="incall_toast_hold">Удержание</string>
     <string name="incall_toast_unhold">Возобновить</string>
+    <string name="dualtalk_tip_accept_disconnect_current">Принятие этого звонка приведет к завершению текущего вызова</string>
+    <string name="dualtalk_tip_accept_disconnect_outgoing">Принятие этого звонка приведет к завершению исходящего вызова</string>
+    <string name="dualtalk_tip_accept_disconnect_incoming">Принятие этого звонка приведет к отклонению другого входящего вызова</string>
+    <string name="dualtalk_tip_accept_disconnect_voice">Принятие этого звонка приведет к завершению голосового вызова</string>
+    <string name="dualtalk_tip_accept_disconnect_outgoing_reject_incoming">Принятие этого звонка приведет к завершению исходящего звонка и отклонению другого входящего вызова</string>
+    <string name="dualtalk_tip_accept_disconnect_current_reject_incoming">Принятие этого звонка приведет к завершению текущего звонка и отклонению другого входящего вызова</string>
+    <string name="onscreenCdmaManageCallext">Управление вызовом</string>
+    <string name="onscreenCdmaMergeCallext">Объединение вызова</string>
+    <string name="end_call_because_can_not_hold">"Окончить текущий вызов, так как он не может быть удержан"</string>
+    <string name="ring_only_once_title">Звонить только раз</string>
+    <string name="ring_only_once_summary">Звонить только раз, когда принимается видеовызов через режим голосового вызова</string>
     <string name="fdnListLabel">Разрешенные номера</string>
     <string name="fdn_contact_name_number_invalid">Имя и номер не могут быть пустыми одновременно</string>
     <string name="fdn_contact_number_invalid">Неверный номер контакта.</string>
     <string name="fdn_phone_book_busy">Телефонная книга в настоящий момент занята, попробуйте повторить попытку позднее</string>
+    <string name="cdma_not_support">"CDMA не поддерживает эту опцию"</string>
+    <string name="cdma_cfu_title">China Telecom</string>
+    <string name="labelCFC">Отменить всю переадресацию</string>
+    <string name="cdma_cfu_dialog_sum">Всегда использовать этот номер</string>
     <string name="dual_mic_title">Шумоподавление</string>
     <string name="dual_mic_turnoff">Выключить два микрофона</string>
     <string name="dual_mic_turnon">Включить два микрофона</string>
@@ -316,9 +335,53 @@
     <string name="sim_manage_suggested">Предлагается</string>
     <string name="sim_manage_sipcall">Интернет</string>
     <string name="sim_manage_call_via">Вызов через</string>
+    <string name="pch_data_prefer_title">Предпочтительная служба передачи данных мобильной сети</string>
+    <string name="pch_data_prefer_summary">Разрешить мобильной службе передачи данных работать с полной скоростью</string>
+    <string name="pch_data_prefer_message">"Предпочтительная мобильная служба передачи данных используется для повышения эффективности передачи данных по более низкой шкале цен, применяемой при входящем вызове. Использовать не рекомендуется.
+
+Вы готовы использовать предпочтительную мобильную службу передачи данных?"</string>
+    <string name="manual_select_title">Ручной выбор</string>
+    <string name="manual_select_dialog_msg">В режиме ручного выбора мобильный телефон не может выбирать других операторов. В случае потери службы выбранного оператора вам придется повторно производить ручной выбор или вернуться в режим автоматического выбора. Мы рекомендуем использовать режим \"Автоматический выбор\". Хотите выбрать сеть вручную?</string>
+    <string name="no_service_msg_gemini">"В настоящий момент нет доступных служб выбранного оператора для \" %s\" SIM-карты.
+Мы рекомендуем использовать режим \"Автоматический выбор\" или вручную выбрать другого оператора."</string>
+    <string name="no_service_msg">"В настоящий момент нет доступных служб выбранного оператора.
+Мы рекомендуем использовать режим \"Автоматический выбор\" или вручную выбрать другого оператора."</string>
+    <string name="show_always_title">Не предупреждайте меня снова</string>
+    <string name="no_service_msg_title_gemini">Нет служб для \" %s\"</string>
+    <string name="no_service_msg_title">Услуга недоступна</string>
+    <string name="data_conn_under_roaming_hint">Пожалуйста, включите опцию передачи данных в роуминге</string>
+    <string name="gemini_data_connection">Соединение для передачи данных</string>
     <string name="plmn_list_setting_title">Предпочтения</string>
+    <string name="network_id">Имя сети (ID)</string>
     <string name="dialog_network_priority_title">Приоритет</string>
     <string name="plmn_list_setting_add_plmn">Добавить новую сеть PLMN</string>
+    <string name="international_dialing_title">Помощь для выполнения международного вызова</string>
+    <string name="international_dialing_select_country">Обнаружено, что вы осуществляете международный вызов. Выберите место назначения.</string>
+    <string name="international_dialing_add_country_code" formatted="false">Обнаружено, что вы набираете номер в: %s. Добавить код страны: (+%s)?</string>
+    <string name="international_dialing_add_country_code_and_area_code">Обнаружено, что вы набираете номер в: %1$s, %2$s. Добавить код страны и города: (+%3$s)?</string>
+    <string name="international_dialing_change_country_prefix">"Обнаружено, что вы набираете номер из: %s. Сменить префикс международного набора на: '+'?"</string>
+    <string name="international_dialing_add_country_code_input_area_code">Обнаружено, что вы набираете номер в: %s. Если это так, укажите код города.</string>
+    <string name="international_dialing_add_country_code_default_input_area_code" formatted="false">Обнаружено, что вы набираете номер в: %s. Если номер вызываемого абонента не находится в городе %s, укажите код города.</string>
+    <string name="international_dialing_need_area_code">Для осуществления вызова необходимо указать код города вызываемого абонента.</string>
+    <string name="international_dialing_input_area_code">Введите сюда код города</string>
+    <string name="international_dialing_dialed_number">Набор номера:</string>
+    <string name="international_dialing_confirm_area_code">Если город вызываемого абонента не %s, укажите код города вызываемого абонента в расположенном ниже поле.</string>
+    <string name="international_dialing_dial_with_country_code">Набор с кодом страны</string>
+    <string name="international_dialing_click_below_button">Нажмите расположенную ниже кнопку, чтобы изменить код страны.</string>
+    <string name="international_dialing_yes">Да, использовать следующий номер:</string>
+    <string name="international_dialing_no">Нет, использовать исходный номер:</string>
+    <string name="international_dialing_call_button">Позвонить</string>
+    <string name="international_dialing_area_code">код города</string>
+    <string name="international_dialing_invalid_number">Недопустимый номер. Все равно продолжить?</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">Добавить код страны и код города?</string>
+    <string name="no_search_result">Нет результатов поиска</string>
+    <string name="gemini_3g_disable_warning_case0">Для данной SIM-карты сначала следует включить роуминг данных, что может повлечь значительное повышение стоимости передачи данных! Включить режим роуминга и выбрать данную SIM-карту?</string>
+    <string name="gemini_3g_disable_warning_case1">В выбранной SIM-карте отсутствует поддержка услуги 3G. Это может привести к замедлению загрузки данных. Параметры услуги 3G можно изменить в меню Параметры > Беспроводные подключения и сети > Сети мобильной связи.</string>
+    <string name="gemini_3g_disable_warning_case2">Для данной SIM-карты сначала необходимо включить роуминг данных, чтобы не допустить значительных расходов, связанных с роумингом. Кроме того, функция 3G не доступна для этой SIM-карты. Это может снизить скорость передачи данных. Чтобы изменить настройку, выберите пункты меню: Настройка >Беспроводные и другие сети > Мобильные сети. Вы действительно хотите включить роуминг данных и выбрать эту SIM-карту?</string>
+    <string name="disable_data_connection_msg">При поиске всех доступных сетей будет отключена используемая информационная связь. Продолжить?</string>
+    <string name="voice_command_notification_ticker" formatted="false">Вы можете сообщить \"%s\" или \"%s\" ответить или проигнорировать входящий вызов</string>
+    <string name="voice_command_notification_title">Голосовое управление</string>
+    <string name="voice_command_notification_message">Голосовое управление для телефона включено</string>
     <string name="reset">Сброс</string>
     <string name="reset_alert">Очистить информацию об объеме переданных данных?</string>
     <string name="reset_data_usage">Сброс объема данных</string>
@@ -333,6 +396,7 @@
     <string name="puk_length_indicate">(8 цифр)</string>
     <string name="card_title_incoming_vt_call">Входящий видеозвонок</string>
     <string name="sip_call_options_title_single_sim">Параметры интернет-вызова</string>
+    <string name="callFailed_simError_slotNumber">Нет SIM-карты или ошибка SIM-карты в слоте %d</string>
     <string name="preferred_network_mode_wcdma_perf_summary">Предпочтительная сеть: GSM/WCDMA (авторежим)</string>
     <string name="preferred_network_mode_scdma_perf_summary">Предпочтительная сеть: TD-SCDMA предпочтительно</string>
     <string name="preferred_network_mode_gsm_only_summary">Предпочтительная сеть: только GSM</string>
@@ -344,13 +408,6 @@
     <string name="preferred_network_mode_cdma_only_summary">Предпочтительная сеть: только CDMA</string>
     <string name="preferred_network_mode_evdo_only_summary">Предпочтительная сеть: только EvDo</string>
     <string name="preferred_network_mode_lte_cdma_summary">Предпочтительная сеть: LTE или CDMA</string>
-    <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_summary">Предпочтительная сеть: CDMA/EvDo/GSM/WCDMA</string>
-    <string name="preferred_network_mode_lte_summary">Предпочтительная сеть: LTE</string>
-    <string name="preferred_network_mode_lte_gsm_wcdma_summary">Предпочтительная сеть: GSM/WCDMA/LTE</string>
-    <string name="preferred_network_mode_lte_cdma_evdo_summary">Предпочтительная сеть: CDMA+LTE/EVDO</string>
-    <string name="preferred_network_mode_global_summary">Предпочтительная сеть: Global</string>
-    <string name="preferred_network_mode_lte_wcdma_summary">Предпочтительная сеть: LTE / WCDMA</string>
-    <string name="preferred_network_mode_gsm_summary">Предпочтительная сеть: GSM</string>
     <string name="fake_phone_activity_infoText_text">Входящий номер телефона</string>
     <string name="fake_phone_activity_placeCall_text">Ложный входящий вызов</string>
     <string name="absent_num">ОТСУТСТВУЕТ НОМЕР</string>
@@ -693,7 +750,7 @@
     <string name="doneButton">Готово</string>
     <string name="caller_manage_header">Конференц-вызов: %s</string>
     <string name="caller_manage_manage_done_text">Вернуться к вызову</string>
-    <string name="fake_phone_activity_phoneNumber_text">+38067 460-0-460</string>
+    <string name="fake_phone_activity_phoneNumber_text">+7960 587-03-33</string>
     <string name="voicemail_settings_number_label">Номер голосовой почты</string>
     <string name="card_title_dialing">Набор номера</string>
     <string name="card_title_redialing">Повторная попытка</string>

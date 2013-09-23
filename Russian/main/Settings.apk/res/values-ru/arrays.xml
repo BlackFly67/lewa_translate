@@ -144,7 +144,7 @@
         <item>Нет подключения</item>
         <item>Сбой</item>
         <item>Заблокировано</item>
-        <item>Временно избегать плохого соединения</item>
+        <item>Избежание слабого сигнала</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
         <item></item>
@@ -158,7 +158,7 @@
         <item>Нет подключения</item>
         <item>Сбой</item>
         <item>Заблокировано</item>
-        <item>Временно избегать плохого соединения</item>
+        <item>Избежание слабого сигнала</item>
     </string-array>
     <string-array name="wifi_security">
         <item>@string/wifi_security_none</item>
@@ -343,13 +343,13 @@
         <item>Всегда использовать проверку HDCP</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
-        <item>Отключение анимации</item>
-        <item>Анимация (масштаб: 0,5x)</item>
-        <item>Анимация (масштаб: 1x)</item>
-        <item>Анимация (масштаб: 1,5x)</item>
-        <item>Анимация (масштаб: 2x)</item>
-        <item>Анимация (масштаб: 5x)</item>
-        <item>Анимация (масштаб: 10x)</item>
+        <item>Отключено</item>
+        <item>0,5x</item>
+        <item>1,0x</item>
+        <item>1,5x</item>
+        <item>2,0x</item>
+        <item>5,0x</item>
+        <item>10,0x</item>
     </string-array>
     <string-array name="window_animation_scale_values">
         <item>0</item>
@@ -361,13 +361,13 @@
         <item>10</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
-        <item>Отключение анимации</item>
-        <item>Анимация (масштаб: 0,5x)</item>
-        <item>Анимация (масштаб: 1x)</item>
-        <item>Анимация (масштаб: 1,5x)</item>
-        <item>Анимация (масштаб: 2x)</item>
-        <item>Анимация (масштаб: 5x)</item>
-        <item>Анимация (масштаб: 10x)</item>
+        <item>Отключено</item>
+        <item>0,5x</item>
+        <item>1,0x</item>
+        <item>1,5x</item>
+        <item>2,0x</item>
+        <item>5,0x</item>
+        <item>10,0x</item>
     </string-array>
     <string-array name="transition_animation_scale_values">
         <item>0</item>
@@ -379,13 +379,13 @@
         <item>10</item>
     </string-array>
     <string-array name="animator_duration_scale_entries">
-        <item>Без анимации</item>
-        <item>Скорость 0,5x</item>
-        <item>Скорость 1x</item>
-        <item>Скорость 1,5x</item>
-        <item>Скорость 2x</item>
-        <item>Скорость 5x</item>
-        <item>Скорость 10x</item>
+        <item>Отключено</item>
+        <item>0,5x</item>
+        <item>1,0x</item>
+        <item>1,5x</item>
+        <item>2,0x</item>
+        <item>5,0x</item>
+        <item>10,0x</item>
     </string-array>
     <string-array name="animator_duration_scale_values">
         <item>0</item>
@@ -425,7 +425,7 @@
     <string-array name="app_process_limit_entries">
         <item>Стандартное ограничение</item>
         <item>Без фоновых процессов</item>
-        <item>Не более одного процесса</item>
+        <item>Не более 1 процесса</item>
         <item>Не более 2 процессов</item>
         <item>Не более 3 процессов</item>
         <item>Не более 4 процессов</item>
@@ -499,7 +499,7 @@
         <item>SIM2</item>
     </string-array>
     <string-array name="nightmode_entries">
-        <item>черный</item>
+        <item>обычный</item>
         <item>красный</item>
         <item>желтый</item>
     </string-array>
